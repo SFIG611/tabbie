@@ -1,0 +1,3 @@
+metric,remedy
+meta yml declares perl version,this distribution does not declare the minimum perl version in meta.yml. if you are using build.pl define the {requires}{perl} = version field. if you are using makemaker (makefile.pl) you should upgrade extutils::makemaker to 6.48 and use min_perl_version parameter. perl::minimumversion can help you determine which version of perl your module needs.
+meta yml has license,this distribution does not have a license defined in meta.yml. define the license if you are using in build.pl. if you are using makemaker (makefile.pl) you should upgrade to extutils::makemaker version 6.31.

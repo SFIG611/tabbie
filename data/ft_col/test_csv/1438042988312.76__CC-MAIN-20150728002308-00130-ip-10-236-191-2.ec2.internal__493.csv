@@ -1,0 +1,30 @@
+machine,distro,target,workstation,population (by age group in 2002),tester,last successful build,build type,current issues
+beagleboard,angstrom-2008.1,beagleboard-linuxtag2010-demo-image,ubuntu 10.04 64-bit,,user:cbrake,testing_2010-10-29,inc,
+beagleboard,angstrom-2008.1,console-image,ubuntu 10.04 64-bit,,user:cbrake,testing_2010-10-29,inc,
+bug20,angstrom-2008.1,openjdk-6,debian unstable 64-bit,1.10,stefan,testing_2010-11-05,clean,
+efikamx,minimal,native-sdk-image,ubuntu 10.10 64-bit,,user:khem,testing_2010-09-27,clean,"kernel-2.6.31.12-er1 error: package name contains illegal characters, (other than [a-z0-9.+-])"
+omap5912osk,minimal-uclibc,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-10-29,clean,
+qemuarm,minimal,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-10-29,clean,
+qemumips,minimal,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-10-29,clean,
+qemuppc,minimal,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-10-14,clean,telnet-netkit: powerpc-oe-linux/bin/ld: final link failed: nonrepresentable section on output
+qemush4,minimal,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-09-27,clean,kernel: cc1: error: command line option â-m4-nofpuâ is not supported by this configuration
+qemux86,minimal,native-sdk-image,ubuntu 10.04 64-bit,,user:khem,testing_2010-10-29,clean,
+qemumipsel,minimal,x11-image,slackware 13.1 64-bit,,grg,testing_2010-11-04,clean,
+qemuarm,angstrom-2010.x,x11-gpe-image,fedora 12 32-bit,,user:gthomas,testing_2010-09-07,clean,testing_2010-09-13 fails to build xf86-input-mouse
+qemuarm,angstrom-2010.x,opie-image,fedora 12 32-bit,,user:gthomas,testing_2010-09-07,clean,
+qemuarm,angstrom-2010.x,opie-kdepim-image,fedora 12 32-bit,,user:gthomas,none,clean,fails to build pwmpi
+beagleboard,angstrom-2008.1,angstrom-gnome-image,ubuntu 9.10 32-bit,,user:gthomas,testing_2010-08-30,clean,
+beagleboard,angstrom-2010.x,beagleboard-linuxtag2010-demo-image,fedora 12 32-bit,,user:gthomas,none,clean,fails to build ti-dsplink if /opt is writeable
+qemuarm,angstrom-2008.1,x11-gpe-image,fedora 12 32-bit,,user:gthomas,testing_2010-10-04,clean,
+beagleboard,angstrom-2008.1,x11-gpe-image,fedora 12 32-bit,,user:gthomas,testing_2010-10-04,clean,
+imote2,angstrom-2008.1,imote2-image,gentoo,,user:jic23,testing_2010-10-29,clean,
+imote2,angstrom-2010.x,imote2-image,gentoo,,user:jic23,testing_2010-10-29,clean,
+hipox,angstrom-2008.1,minimal-image,opensuse 11.3 32-bit,1.8.18,sledz [2],testing_2010-10-25,clean,
+hipox,angstrom-2008.1,console-image,opensuse 11.3 32-bit,1.8.18,sledz [2],testing_2010-10-25,clean,
+hipox,angstrom-2008.1,angstrom-gnome-image,opensuse 11.3 32-bit,1.8.18,sledz [2],none,clean,testing_2010-10-14: do_configure epiphany failed
+hipox,angstrom-2008.1,angstrom-x-image,opensuse 11.3 32-bit,1.8.18,sledz [2],none,clean,testing_2010-09-20: do_configure epiphany failed
+neek,minimal,console-image,ubuntu 10.04 64-bit,1.10,effem [1],none,clean,testing_2010-10-29: fails in libx11: see http://tinderbox.openembedded.net/builds/100734/
+nslu2le,slugos,slugos-image,ubuntu 10.04 64-bit,1.10,effem [1],testing_2010-10-29,clean,
+nslu2be,slugos,slugos-image,ubuntu 10.04 64-bit,1.10,effem [1],testing_2010-10-29,clean,
+calamari,minimal,console-image,ubuntu 10.04 64-bit,1.10,effem [1],testing_2010-10-29,clean,
+mpc8313e-rdb,minimal,console-image,ubuntu 10.04 64-bit,1.10,effem [1],testing_2010-10-29,clean,

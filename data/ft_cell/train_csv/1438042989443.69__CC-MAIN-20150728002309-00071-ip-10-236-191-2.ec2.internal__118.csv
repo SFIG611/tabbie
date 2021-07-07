@@ -1,0 +1,30 @@
+configurable property name,scope,pertains to
+alternatelocation,instance,redo transport services
+database,database,redo apply and sql apply
+applylagthreshold,database,redo transport services
+applyparallel,database,redo apply
+archivelagtarget,database,redo transport services
+binding,database,dbfilenameconvert
+redo transport services,database,redo apply
+delaymins,database,redo apply and sql apply
+dgconnectidentifier,database,"broker communication, redo transport services"
+faststartfailovertarget,database,fast-start failover
+logarchiveformat,instance *,redo transport services
+logarchivemaxprocesses,database,redo transport services
+logarchiveminsucceeddest,database,redo transport services
+logarchivetrace,instance *,diagnosis
+logfilenameconvert,database,redo apply
+logshipping,database,redo transport services
+logxptmode,database,redo transport services
+lsbyaskipcfgpr,database,sql apply
+database,database,sql apply
+lsbyaskiptxncfgpr,database,sql apply
+lsbydskipcfgpr,applyinstancetimeout,sql apply
+lsbydskiperrorcfgpr,database,sql apply
+lsbydskiptxncfgpr,database,sql apply
+lsbymaxeventsrecorded,database,sql apply
+lsbymaxsga,instance *,sql apply
+lsbymaxservers,instance *,sql apply
+lsbyrecordappliedddl,database,sql apply
+lsbypreservecommitorder,database,sql apply
+lsbyrecordskipddl,lsbyaskiperrorcfgpr,sql apply

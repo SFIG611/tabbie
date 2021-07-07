@@ -1,0 +1,9 @@
+item,example,comment
+!,[if !ie],"the not operator. this is placed immediately in front of the feature, operator, or subexpression to reverse the boolean meaning of the expression."
+lt,[if lt ie 5.5],the less-than operator. returns true if the first argument is less than the second argument.
+lte,[if lte ie 6],the less-than or equal operator. returns true if the first argument is less than or equal to the second argument.
+gt,[if gt ie 5],the greater-than operator. returns true if the first argument is greater than the second argument.
+gte,[if gte ie 7],the greater-than or equal operator. returns true if the first argument is greater than or equal to the second argument.
+( ),[if !(ie 7)],subexpression operators. used in conjunction with boolean operators to create more complex expressions.
+&,[if (gt ie 5)&(lt ie 7)],the and operator. returns true if all subexpressions evaluate to true
+|,[if (ie 6)|(ie 7)],the or operator. returns true if any of the subexpressions evaluates to true.

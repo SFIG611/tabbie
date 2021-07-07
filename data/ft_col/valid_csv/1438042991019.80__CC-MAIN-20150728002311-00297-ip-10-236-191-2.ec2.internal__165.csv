@@ -1,0 +1,4 @@
+element,required/optional,description
+,optional,a text description of this security constraint.
+or,required,the role-name element or the unchecked element must be specified. the role-name element contains the name of a security role. the name must conform to the lexical rules for an nmtoken. the unchecked element specifies that a method is not checked for authorization by the container prior to invocation of the method.
+,required,"specifies a method of an enterprise bean's home or component interface, or, in the case of a message-driven bean, the bean's onmessage method, or a set of methods."

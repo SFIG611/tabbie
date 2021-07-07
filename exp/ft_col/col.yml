@@ -1,0 +1,6 @@
+
+model_path: ./model/freq.tar.gz
+clscol_path: ./data/clscol.npy
+clsrow_path: ./data/clsrow.npy
+
+

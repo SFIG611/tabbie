@@ -1,0 +1,7 @@
+requirement,specification,dted-2,hrti-3
+relative vertical accuracy,90% linear point-to-point,12 m (slope < 20%),2 m (slope < 20%)
+,error over a 1â° ã 1â° cell,15 m (slope > 20%),4 m (slope > 20%)
+absolute vertical accuracy,90% linear error,18 m,10 m
+relative horizontal,90% circular error,15 m,3 m
+horizontal accuracy,90% circular error,23 m,10 m
+spatial resolution,independent pixels,30 m (1 arc sec at equator),12 m (0.4 arc sec at equator)

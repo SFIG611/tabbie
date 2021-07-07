@@ -1,0 +1,20 @@
+"explanatory variables (all variables in 2000 dollars, as appropriate)",base model,driver
+highway spending divided by urbanized area residents,-1.30e-4 (9.62e-6),-1.00e-4 (7.27e-6)
+"highway spending divided by urbanized area residents interacted with an urbanization dummy (1 if the state is more than 80% urbanized, 0 otherwise)",3.31e-5 (5.55e-6),1.99e-5 (4.19e-6)
+"highway spending divided by urbanized area residents interacted with a political dummy (1 if the state has at least one congressman in party leadership, 0 otherwise)",1.99e-5 (9.28e-6),6.15e-6 (7.02e-6)
+"highway spending divided by urbanized area residents interacted with a high capital stock dummy (1 if the state's capital stock divided by state residents is at or above the 70th percentile of the sample in the year preceding spending , 0 otherwise)",8.43e-5 (2.38e-5),6.62e-5 (1.94e-5)
+"highway spending divided by urbanized area residents interacted with a low capital stock dummy (1 if the state's capital stock divided by state residents is at or below the 20th percentile of the sample in the year preceding spending, 0 otherwise)",-3.29e-5 (1.77e-5),2.47e-5 (9.35e-6)
+rail directional route mileage,-4.90e-4 (2.69e-4),-2.28e-4 (1.92e-4)
+bus directional route mileage (includes mixed right of way and combined right of way),2.44e-4 (9.82e-5),2.01e-4 (6.31e-5)
+exclusive right of way bus directional route mileage,0.0059 (0.0012),0.0038 (0.0011)
+total annual precipitation (hundredths of inches),4.56e-4 (4.53e-5),2.70e-4 (2.95e-5)
+annual number of days with temperature over 90â°f,0.0138 (0.0024),0.0152 (0.0014)
+bottleneck dummy (1 if a major body of water in the urbanized area is crossed by two or fewer interstates and two or fewer other roadways),0.4755 (0.1093),0.3752 (0.0858)
+"interstate dummy (1 if the urbanized area has a major interstate highway running through it, 0 otherwise)",0.7043 (0.1249),0.3262 (0.0797)
+percentage of trucks in the traffic mix,0.4376 (0.0989),0.4165 (0.0599)
+urbanized area employment,1.92e-6 (2.66e-7),1.72e-6 (2.15e-7)
+urbanized area off-peak vehicle miles traveled,-4.30e-5 (1.22e-5),-5.10e-5 (9.20e-6)
+urbanized area volume-capacity ratio (daily vehicle miles traveled divided by system road miles),--,0.7988 (0.0432)
+state fixed effects included,yes,yes
+r2,0.85,0.92
+number of observations,1110,1110

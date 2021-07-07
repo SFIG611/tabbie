@@ -1,0 +1,17 @@
+
+learn_type: 'pred'
+batch_size: '1'
+# cache_usage: read
+# cell_db_path: ./data/col_pop/col_pop_cache.kch
+cache_id: ./data/col_pop/cid_map.json
+cache_npy: ./data/col_pop/cell_feats.npy
+cuda_devices: [0]
+out_pred_name: pred.jsonl
+# train_data_path: ./data/pretrain/cell_str.jsonl
+train_data_path: ./data/ft_cell/ft_cell100.jsonl  # TODO: modify
+clscol_path: ./data/clscol.npy
+clsrow_path: ./data/clsrow.npy
+label_path: ./data/col_pop/label.csv
+out_dir: ./data/ft_cell/debug
+n_seed_cols: '3'
+

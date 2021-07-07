@@ -1,0 +1,3 @@
+select type,table,type,possible keys,key,key len,notes,rows,extra
+simple,moderator_content,ref,"content_user_id,user_id",content_user_id,81,"const,const",1,using where; using temporary; using filesort
+simple,user,eq_ref,primary,primary,4,tfnforum.moderator_content.user_id,1,

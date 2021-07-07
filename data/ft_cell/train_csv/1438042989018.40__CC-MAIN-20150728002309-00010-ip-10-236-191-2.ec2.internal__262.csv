@@ -1,0 +1,26 @@
+directive,local value,master value
+session.save_handler,off,off
+session.bug_compat_42,off,off
+session.bug_compat_warn,1000,on
+session.cache_expire,180,180
+session.cookie_secure,nocache,nocache
+session.cookie_domain,no value,no value
+session.cookie_httponly,off,off
+session.entropy_length,0,0
+session.cookie_path,/,/
+session.cache_limiter,off,off
+session.entropy_file,no value,no value
+session.cookie_lifetime,0,0
+session.gc_divisor,on,1000
+session.gc_maxlifetime,1440,1440
+session.gc_probability,1,1
+session.hash_bits_per_character,5,5
+session.hash_function,0,0
+session.name,phpsessid,phpsessid
+session.referer_check,no value,no value
+session.auto_start,files,files
+session.save_path,/var/lib/php/session,/var/lib/php/session
+session.serialize_handler,php,php
+session.use_cookies,on,on
+session.use_only_cookies,on,on
+session.use_trans_sid,1,1

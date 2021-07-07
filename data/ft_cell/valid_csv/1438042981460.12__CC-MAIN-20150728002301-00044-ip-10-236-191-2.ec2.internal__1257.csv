@@ -1,0 +1,15 @@
+date,code,event,description
+"dec 8, 2000",as,assignment,
+"mar 17, 2004",as,assignment,
+"apr 22, 2005",as,assignment,
+"dec 12, 2005",fpay,fee payment,year of fee payment: 4
+"nov 6, 2007",as,assignment,"owner name: silver point finance, llc, as collateral agent, co free format text: grant of security interest;assignor:vivitar corporation;reel/frame:020072/0247 effective date: 20071026 owner name: silver point finance, llc, as collateral agent, co free format text: grant of security interest;assignor:syntax-brillian corporation;reel/frame:020072/0232 effective date: 20071026"
+"dec 17, 2007",as,assignment,owner name: brillian corporation (n/k/a syntax-brillian corp.) free format text: release of security interest;assignor:regenmacher ltd.;reel/frame:020261/0572 effective date: 20071210
+"feb 8, 2008",as,assignment,"owner name: compound photonics u.s. corporation, arizona free format text: assignment of assignors interest;assignor:syntax-brillian corporation;reel/frame:020609/0406 effective date: 20071221"
+"aug 6, 2009",as,"owner name: compound photonics u.s. corporation, arizona free format text: release by secured party;assignor:silver point finance, llc;reel/frame:023056/0972 effective date: 20090731",assignment
+"dec 3, 2009",fpay,fee payment,year of fee payment: 8
+"jul 7, 2010",assignment,as,"owner name: compound photonics limited, arizona free format text: assignment of assignors interest;assignor:compound photonics u.s. corporation;reel/frame:024640/0332 effective date: 20100121"
+"aug 25, 2010",assignment,as,"owner name: vollin holdings limited, cyprus free format text: security agreement;assignors:compound photonics limited;compound photonics u.s. corporation;fury technologies corporation;reel/frame:024944/0283 effective date: 20100825"
+"dec 16, 2011",as,assignment,"owner name: compound photonics u.s. corporation, arizona free format text: assignment of assignors interest;assignor:sb liquidation trust and the lender trust;reel/frame:027399/0506 effective date: 20110922"
+assignment,as,"dec 19, 2011","owner name: compound photonics limited, united kingdom free format text: assignment of assignors interest;assignor:compound photonics u.s. corporation;reel/frame:027405/0966 effective date: 20111206"
+"dec 6, 2013",fpay,fee payment,year of fee payment: 12

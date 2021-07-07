@@ -1,0 +1,6 @@
+code,result
+<i>italics</i>,italics
+<b>bold</b>,bold
+<u>underline</u>,underline
+strike,strike
+monospaced,monospaced

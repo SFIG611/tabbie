@@ -1,0 +1,9 @@
+
+learn_type: 'pred'
+batch_size: '1'
+cuda_devices: [0]
+# out_pred_name: pred.jsonl
+clscol_path: ./data/clscol.npy
+clsrow_path: ./data/clsrow.npy
+# out_dir: ./data/ft_cell/debug
+

@@ -1,0 +1,40 @@
+
+common:
+  cache_id: ./data/sato/cid_map.json
+  cache_npy: ./data/sato/cell_feats.npy
+  out_dir: ./sato_out3
+  clscol_path: ./data/clscol.npy
+  clsrow_path: ./data/clsrow.npy
+  bert_vocab_path: ./data/bert-base-uncased-vocab.txt
+
+train:
+  bs: '3'
+  # train_data_path: ./data/sato/train1K.jsonl
+  train_data_path: ./data/sato/train1K.jsonl
+  valid_data_path: ./data/sato/valid6400.jsonl
+  # train_data_path: ./data/sato/tmp100.jsonl
+  # valid_data_path: ./data/sato/tmp100.jsonl
+  label_path: ./data/sato/label.csv
+  model_path: ./model/freq.tar.gz
+  cuda_devices: [0,1,2,3]  # [0,1,2,3,4,5,6,7]
+
+eval:
+  batch_size: 10
+  learn_type: pred
+  # cache_usage: read
+  # cell_db_path: ./data/sato/sato_cache.kch # /mnt/nfs/work1/miyyer/hiida/data/sato/data/s_0731_uniq.kch
+  model_path: ./sato_out/model.tar.gz  # /mnt/nfs/work1/miyyer/hiida/exp_result/pretrain/table_emb_30/log_pretrain/model.tar.gz
+  pred_file_path: ./data/sato/test.jsonl  # /mnt/nfs/work1/miyyer/hiida/data/sato/data/s_train_small.jsonl
+  label_path: ./data/sato/label.csv  # /mnt/nfs/work1/miyyer/hiida/data/sato/data/label.csv
+  out_dir: ./sato_out
+  out_fpath: sato_pred.jsonl
+  clscol_path: ./data/clscol.npy
+  clsrow_path: ./data/clsrow.npy
+  bert_vocab_path: ./data/bert-base-uncased-vocab.txt
+
+
+# cache_usage: read
+# cell_db_path: ./data/sato/sato_cache.kch # /mnt/nfs/work1/miyyer/hiida/data/sato/data/s_0731_uniq.kch
+
+
+

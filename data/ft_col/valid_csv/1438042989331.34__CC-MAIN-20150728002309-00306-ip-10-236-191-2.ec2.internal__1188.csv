@@ -1,0 +1,6 @@
+date,code,event,description
+"dec 6, 2006",remi,maintenance fee reminder mailed,
+"may 20, 2007",laps,lapse for failure to pay maintenance fees,
+"jul 10, 2007",fp,expired due to failure to pay maintenance fee,effective date: 20070520
+"apr 14, 2008",as,assignment,"owner name: sabic innovative plastics ip b.v., netherlands free format text: assignment of assignors interest;assignor:general electric company;reel/frame:020820/0578 effective date: 20070831"
+"aug 18, 2008",as,assignment,"owner name: citibank, n.a., as collateral agent,new york free format text: security agreement;assignor:sabic innovative plastics ip b.v.;reel/frame:021423/0001 effective date: 20080307"

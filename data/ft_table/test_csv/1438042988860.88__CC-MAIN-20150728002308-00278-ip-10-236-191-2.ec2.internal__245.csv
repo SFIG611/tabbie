@@ -1,0 +1,7 @@
+odbc support,enabled
+active persistent links,0
+active links,0
+odbc library,unixodbc
+odbc_include,-i/usr/include
+odbc_lflags,-l/usr/lib64
+odbc_libs,-lodbc

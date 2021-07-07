@@ -1,0 +1,23 @@
+
+bs: '3'
+cache_usage: read
+cell_db_path: ./data/col_pop/col_pop_cache.kch
+model_path: ./model/freq.tar.gz
+train_data_path: ./data/col_pop/train_100K.jsonl
+clscol_path: ./data/clscol.npy
+clsrow_path: ./data/clsrow.npy
+label_path: ./data/col_pop/label.csv
+out_dir: ./data/col_pop/debug
+n_seed_cols: '3'
+
+
+# train_data_path: ./data/col_pop/tmp/tmp1K.jsonl
+# model_path: /mnt/nfs/work1/miyyer/hiida/data/0418/share/multicol_viz/epoch6.tar.gz
+# model_path: /mnt/nfs/work1/miyyer/hiida/data/pretrain/exp_result/table_emb_5M/log_pretrain_bak/epoch10.tar.gz
+# model_path: /home/hiida/code/table_emb/exp/train3M/log_pretrain_mix_v3_125/model.tar.gz
+# model_path: /home/hiida/code/table_emb/exp/train20M/log_pretrain_0929_v2/epoch210.tar.gz
+# valid_data_path: /mnt/nfs/work1/miyyer/hiida/data/col_pop/data/test3.jsonl
+# valid_data_path: /mnt/nfs/work1/miyyer/hiida/data/col_pop/data/valid_types.jsonl
+# out_dir: /mnt/nfs/work1/miyyer/hiida/data/col_pop/exp_result/tmp4
+# bert_vocab_path: /home/hiida/bert-base-uncased-vocab.txt
+

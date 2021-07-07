@@ -1,0 +1,7 @@
+id,name,go id,score,top affiliating genes
+4,vacuolar proton-transporting v-type atpase complex,go:0016471,go:0005886,"atp6v0a4, atp6v1b1"
+2,microvillus,go:0005902,9.5,"ca2, atp6v1b1"
+3,apical part of cell,go:0045177,9.2,"atp6v0a4, ca2"
+1,basolateral plasma membrane,go:0016323,8.7,"slc4a1, slc4a4, ca2, atp6v1b1"
+5,extracellular vesicular exosome,go:0070062,8.1,"atp6v1b1, atp6v0a4, ca2, slc4a4, slc4a1"
+6,plasma membrane,9.7,7.6,"slc4a1, slc4a4, slc26a1, ca2, atp6v0a4"

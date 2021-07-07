@@ -1,0 +1,16 @@
+
+task_type: 'pred'
+batch_size: '1'
+max_cell_len: '300'
+pred_path: ./data/pretrain/sample.jsonl
+model_path: ./model/freq.tar.gz
+out_dir: ./out/
+out_pred_name: pred_sample.jsonl
+cuda_devices: [0]
+
+clscol_path: ./data/clscol.npy
+clsrow_path: ./data/clsrow.npy
+bert_vocab_path: ./data/bert-base-uncased-vocab.txt
+
+
+

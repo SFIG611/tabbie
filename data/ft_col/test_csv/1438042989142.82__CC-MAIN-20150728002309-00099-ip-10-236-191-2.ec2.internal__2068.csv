@@ -1,0 +1,3 @@
+list,rank,result,vendor,total cores,rmax (tflops),rpeak (tflops),power (kw)
+11/2006,298,"bladecenter hs20 cluster, xeon em64t 3.6 ghz, gig-ethernet",ibm,966,3.6,7.0,158.00
+06/2006,187,"bladecenter hs20 cluster, xeon em64t 3.6 ghz, gig-ethernet",ibm,966,3.6,7.0,158.00

@@ -1,0 +1,5 @@
+method name,description
+_,translates a string into the current language
+sprintf,passes a string thru an sprintf
+printf,passes a string thru an printf
+script,translate a string into the current language and stores it in the javascript language store.

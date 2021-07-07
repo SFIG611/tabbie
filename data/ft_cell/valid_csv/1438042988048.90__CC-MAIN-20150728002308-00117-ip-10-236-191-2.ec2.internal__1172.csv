@@ -1,0 +1,6 @@
+snp id,clin,chr 03 pos,sequence context,aa info,type,maf
+rs12813,--,"50,258,640(+)",ggagg(g/t)gggca,,"synonymous-codon, reference, utr-variant-5-prime",
+rs12895,--,"50,259,042(-)",cagca(a/g)aggga,,utr-variant-3-prime,
+rs15488,--,"50,259,294(-)",catgt(a/c/g/t)aaaaa,,intron-variant,
+rs762707,--,"50,252,421(-)",tcctc(a/c/g/t)gagta,,utr-variant-3-prime,
+rs916025,--,"50,239,810(-)",cagtg(c/t)accaa,,utr-variant-3-prime,

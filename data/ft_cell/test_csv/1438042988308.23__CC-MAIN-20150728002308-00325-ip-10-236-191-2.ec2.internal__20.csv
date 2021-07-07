@@ -1,0 +1,14 @@
+compare compare all,product name,status,chassis form factor,board form factor,socket
+compare,intelâ® server system sr1625urr,end of life,1u rack,,lga1366
+compare,1u rack,end of life,intelâ® server system sr1625ursasr,,lga1366
+compare,intelâ® server system sr2600urbrpr,end of life,2u rack,,lga1366
+compare,intelâ® server system sr2600urlxr,end of life,2u rack,,lga1366
+end of life,intelâ® server system sr2600ursatar,compare,2u rack,,lga1366
+compare,intelâ® server system sr2625urbrpr,end of life,2u rack,,lga1366
+compare,intelâ® server system sr2625urlxr,end of life,2u rack,,lga1366
+compare,intelâ® server system sr2625urlxt,end of life,2u rack,,lga1366
+compare,intelâ® server system sc5650bcdpr,end of life,"pedestal, 6u rack option",,lga1366
+lga1366,intelâ® server system sc5650hcbrpr,end of life,"pedestal, 6u rack option",,compare
+compare,intelâ® server system sr1630hgp,end of life,1u rack,,lga1156
+compare,intelâ® server system sr1630hgprx,lga1156,1u rack,,end of life
+intelâ® workstation system sc5650scws,compare,end of life,"pedestal, 6u rack option",,lga1366
