@@ -31,8 +31,8 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 
 ## setup 4: download model
 ```
-cd tabbie/model
 https://drive.google.com/drive/folders/1vAMv09j-VlWHKd5djiRGuC16yb-lhJO0
+mv freq.tar.gz mix.tar.gz tabbie/model
 ```
 
 # corrupt cell detection
