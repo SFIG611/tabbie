@@ -1,6 +1,7 @@
 # Tabbie: Tabular Information Embedding
 This repository includes scripts for Tabbie(Tabular Information Embedding) model. 
 The link to the paper is as follows.
+https://arxiv.org/pdf/2105.02584.pdf
 
 ## (setup 1): update cuda version from 10.0 to 10.1 (for AWS deep learning ami)
 ```
@@ -31,7 +32,7 @@ pip install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cud
 ## setup 4: download model
 ```
 cd tabbie/model
-TODO: add link
+https://drive.google.com/drive/folders/1vAMv09j-VlWHKd5djiRGuC16yb-lhJO0
 ```
 
 # corrupt cell detection
