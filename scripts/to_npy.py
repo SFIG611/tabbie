@@ -2,7 +2,7 @@
 import json
 import numpy as np
 from pathlib import Path
-from kyotocabinet import *
+# from kyotocabinet import *
 
 
 class ToNpy:
